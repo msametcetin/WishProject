@@ -38,3 +38,33 @@ You need a C compiler, such as **GCC**, to compile the source code.
 ```bash
 # Check if GCC is installed
 gcc --version
+
+Installation and Execution
+Clone the repository (if not already done):
+
+Bash
+
+git clone [https://github.com/msametcetin/WishProject.git](https://github.com/msametcetin/WishProject.git)
+cd WishProject
+Compile the source code: Use gcc to compile the wish.c file and create an executable named wish.
+
+Bash
+
+gcc -o wish wish.c
+Run in Interactive Mode: Simply run the generated executable:
+
+Bash
+
+./wish
+(The shell will prompt for commands.)
+
+Run in Batch Mode (Script Execution): Provide a text file containing a list of commands as an argument:
+
+Bash
+
+./wish <your_script_file>.txt
+ Testing
+The project includes a tester folder, likely containing scripts or test cases to verify the shell's functionality against project requirements.
+
+ License
+This project is open-source. Please specify the license type here.
